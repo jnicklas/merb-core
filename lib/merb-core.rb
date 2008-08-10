@@ -322,7 +322,7 @@ module Merb
     # Returns the default ORM for this application. For instance, :datamapper.
     #
     # ==== Returns
-    # Symbol:: default ORM.
+    # <Symbol>:: default ORM.
     def orm
       @orm ||= :none
     end
@@ -330,7 +330,7 @@ module Merb
     # Returns the default test framework for this application. For instance :rspec.
     #
     # ==== Returns
-    # Symbol:: default test framework.
+    # <Symbol>:: default test framework.
     def test_framework
       @test_framework ||= :rspec
     end
@@ -338,7 +338,7 @@ module Merb
     # Returns the default template engine for this application. For instance :haml.
     #
     # ==== Returns
-    # Symbol:: default template engine.
+    # <Symbol>:: default template engine.
     def template_engine
       @template_engine ||= :erb
     end
